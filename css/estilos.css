@@ -40,6 +40,8 @@
     color: #0F6A62;
     position: absolute;
     bottom: 1em;
+    text-align: justify;
+    padding-right: 1.5em;
     
 }
 
@@ -57,10 +59,42 @@
     display: inline-block;
     font-size: 12px;
     padding: 0.5em;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
 
+.proyectos{
+    margin-left: 350px;
+    display: table;
+    padding:1em;
+}
+
+.proyecto{
+    width: 50%;
+    display: table-cell;
+    padding: 1em;
+}
+
+.proyecto_imagen{
+    width: 100%;
+}
+
+.proyecto_titulo{
+    font-size: 18px;
+    color: #29597C;
+}
+
+.proyecto_descripcion{
+    color: #797D7F;
+}
+
+.proyecto .habilidad{
+    background-color: #29597C;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0.5em;
+    text-transform: uppercase;   
+}
 
 
 
